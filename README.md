@@ -1,4 +1,4 @@
-This repository contains the source code for the article "Convolutional Neural Networks on Small Datasets: The Use of Transfer Learning, Synthetic Data Generation, and Data Sampling in Geoscience Applications" submitted to Computers & Geosciences. The dataset used in this paper can be requested from the corresponding author at isleyen@mines.edu.
+This repository contains the source code for the article "Convolutional Neural Networks on Small Datasets: The Use of Transfer Learning, Synthetic Data Generation, and Data Sampling in Geoscience Applications" submitted to Geoscience Frontiers. The dataset used in this paper can be requested from the corresponding author at isleyen@mines.edu.
 
 # CNN_transferlearning.py
 Trains a ResNet CNN for roof fall hazard detection. Images should be separated into "train" and "val" folders prior to using this script. Also, inside these folders, images should be placed under a folder titled with their labels, e.g. "hazard" and "non-hazard". It uses a transfer learning approach with a network trained on ImageNet dataset. The script uses PyTorch library.
